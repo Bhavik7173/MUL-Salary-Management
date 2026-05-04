@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "buildCommand": "npm install --legacy-peer-deps && npm install ajv@^6.12.6 --legacy-peer-deps && npm run build",
+  "buildCommand": "CI= npm run build",
   "outputDirectory": "build",
   "installCommand": "npm install --legacy-peer-deps"
 }
