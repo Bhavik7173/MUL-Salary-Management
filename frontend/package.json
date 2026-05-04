@@ -59,9 +59,10 @@
     "zod": "^3.24.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "craco test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "craco test",
+    "postinstall": "npm install ajv@^6.12.6 --legacy-peer-deps --no-save"
   },
   "browserslist": {
     "production": [
