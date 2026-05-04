@@ -152,3 +152,17 @@ python-multipart>=0.0.9
 jq>=1.6.0
 typer>=0.9.0
 emergentintegrations==0.1.0
+
+fastapi==0.110.1
+uvicorn==0.25.0
+motor==3.3.1
+pymongo==4.5.0
+pydantic==2.12.5
+python-dotenv==1.2.1
+pandas==2.2.0
+openpyxl==3.1.5
+reportlab==4.4.9
+python-multipart==0.0.22
+httpx==0.28.1
+starlette==0.37.2
+email-validator==2.3.0
